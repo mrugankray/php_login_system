@@ -1,0 +1,203 @@
+body{
+	font:15px/1.5 Ariel,Helvetica,sans-serif;
+	padding:0px;
+	margin:0px;
+	background-color:#f4f4f4;
+}
+/*Global*/
+.container {
+	margin:auto;
+	width:80%;
+	overflow:hidden;
+	
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+.button_1 {
+	color:white;
+	background-color: #e8491d;
+	height:38px;
+	padding-right:20px;
+	padding-left:20px;
+	border:0;
+	margin-left:90px;
+	
+}
+.dark{
+	padding:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:white;
+	background:#35424a;
+}
+/*Header*/
+header {
+	color:#ffffff;
+	background:#35424a;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:3px solid #e8491d
+}
+header a {
+	color:#ffffff;
+	font-size:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header #branding {
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+header a:hover {
+	color:#cccccc;
+	font-weight:bold;
+}
+/*Showcase*/
+#showcase {
+	min-height:400px;
+	background:url(coding5.jpg) no-repeat 0 -350px;
+	text-align:center;
+	color:black;
+}
+#showcase h1{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:100px;
+}
+#showcase p{
+	font-size:20px;
+}
+#register {
+	color:white;
+	padding:15px;
+	background:#35424a;
+}
+#register h1{
+	float:left;
+}
+#register form{
+	float:right;
+	margin-top:15px;
+}
+#register input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+	margin-top:5px;
+	
+}
+#register input[type="text"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+#register input[type="password"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+	margin-top:5px;
+	
+}
+#images {
+	margin-top:20px;
+}
+#images .img {
+	width:30%;
+	float:left;
+	text-align:center;
+	padding:10px;
+}
+#images .img img{
+	width:90px;
+}
+/*Side bar*/
+/*hrudesh2010@gmail.com*/
+aside#sidebar {
+	float:right;
+	width:30%;
+	margin-top:10px;
+}
+article#main-col{
+	float:left;
+	width:65%;
+}
+footer{
+	padding:20px;
+	text-align:center;
+	background-color:#e8491d;
+	color:white;
+}
+aside#signup {
+	width:30%;
+	margin-top:120px;
+	margin-left:35%;
+	padding:5px;
+}
+#register .button_1{
+	margin-top:5px;
+}
+#z .abt{
+	margin-top:287px;
+}
+#z .log{
+	margin-top:131px;
+}
+#z .secondary{
+	margin-top:198px;
+}
+#z .registered{
+	margin-top:283px;
+}
+aside#signup .button_1 {
+	margin-left:0%;
+	margin-top:5px;
+}
+/*secondary & registered page*/
+aside#signup a:link , aside#registered a:link
+	{color:white;
+	text-decoration:none;
+		  }
+aside#signup a:visited , aside#registered a:visited {
+	color:white;
+	text-decoration:none;
+}
+aside#signup a:hover , aside#registered a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+/*Media queries*/
+@media(max-width: 768px){
+	header #branding,header nav,header nav li,#register form,#register h1,#images .img,article#main-col,aside#sidebar{
+		text-align:center;
+		width:100%;
+		float:none;
+	}
+	header{padding-bottom:20px;}
+	showcase h1 {padding-top:40px;}
+	#register button, .quote button {
+		display:block;
+		width:100%;
+	}
+	.quote input{
+		width:100%;
+		margin-bottom:5px
+	}
+}
